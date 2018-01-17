@@ -1,0 +1,180 @@
+<!-- <html> 与 </html> 之间的文本描述网页
+<body> 与 </body> 之间的文本是可见的页面内容
+<h1> 与 </h1> 之间的文本被显示为标题
+<p> 与 </p> 之间的文本被显示为段落 -->
+
+<!DOCTYPE HTML>
+<html>
+<!-- <body>定义了html文档的主体, 结束标签</body> bgcolor(背景颜色) -->
+
+<body bgcolor="white">
+    <h1 style="text-align:center">hello, world</h1>
+
+    <p>我的第一个段落标签</p>
+    <!-- <hr/> 这个一个水平线 -->
+    <hr/>
+    <p>我的第二个段落</p>
+
+    <!-- HTML 标题（Heading）是通过 <h1> - <h6> 等标签进行定义的, align(布局位置) -->
+    <h1 align="center" style="color:dimgrey;font-family:sans-serif
+            ;font-size:8px">这是一个标题标签</h1>
+    <h2>这是一个标题标签</h2>
+    <h3>这是一个标题标签</h3>
+    <h4>这是一个标题标签</h4>
+    <h5>这是一个标题标签</h5>
+    <h6>这是一个标题标签</h6>
+
+    <!-- 这是一个链接标签                       -->
+    <a href="www.baidu.com">这是一个链接标签</a>
+
+    <!-- 换行 -->
+    <br/>
+
+    <a href="test.html">这是一个链接标签</a>
+
+    <!-- 这个一个图片标签 -->
+    <img src="./img/1.gif" width="100" height="150" />
+
+    <br/>
+    <p>WWF 的目标是：
+        <q>构建人与自然和谐共存的世界。</q>
+    </p>
+
+    <!-- 用于长引用HTML<blockquote></blockquote> -->
+    <p>以下内容引用自 WWF 的网站：</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        五十年来，WWF 一直致力于保护自然界的未来。 世界领先的环保组织，WWF 工作于 100 个国家， 并得到美国一百二十万会员及全球近五百万会员的支持。
+    </blockquote>
+
+    <!-- 定义键盘输入 -->
+    <p>
+        <kbd>File | Open...</kbd>
+    </p>
+
+    <!-- <samp> 元素定义计算机输出示例： -->
+    <samp>
+        demo.example.com login: Apr 12 09:10:17 Linux 2.6.10-grsec+gg3+e+fhs6b+nfs+gr0501+++p3+c4a+gr2b-reslog-v6.189
+    </samp>
+
+    <p>Coding Example， 不保留多余的空格和折行:</p>
+    <code>
+        var person = { firstName:"Bill", lastName:"Gates", age:50, eyeColor:"blue" }
+    </code>
+
+    <!-- 如果需要保留空格和折行用<pre></pre> -->
+    <code>
+        <pre>
+            var person = {
+                firstName:"Bill",
+                lastName:"Gates",
+                age:50,
+                eyeColor:"blue"
+            }
+            </pre>
+    </code>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="Content-Language" content="zh-cn" />
+    </head>
+
+    <a href="www.baidu.com" style="text-decoration:none">
+        这是一个链接！
+    </a>
+
+    <p>
+        <a href="/index.html">本文本</a> 是一个指向本网站中的一个页面的链接。</p>
+
+    <p>
+        <a href="https://www.baidu.com/">本文本</a> 是一个指向万维网上的页面的链接。</p>
+
+    <p>如果把链接的 target 属性设置为 "_blank"，该链接会在新窗口中打开。</p>
+    <a href="http://www.w3school.com.cn/" target="_blank">Visit W3School!</a>
+
+    <br/>
+    <a name="label">锚（显示在页面上的文本）</a>
+    <br/>
+    <a href="#tips">查看tips</a>
+    <br/>
+    <a href="test.html#tips">通过锚查看到另一个网页的tips</a>
+    <br/>
+    <a href="test.html" target="_top">请点击这里！</a>
+
+    <p>
+        <a href="#C4">查看 Chapter 4。</a>
+    </p>
+
+    <h2>Chapter 1</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 2</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 3</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>
+        <a name="C4">Chapter 4</a>
+    </h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <a name="tips">基本的注意事项 - 有用的提示</a>
+
+    <h2>Chapter 5</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 6</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <h2>Chapter 7</h2>
+    <p>This chapter explains ba bla bla</p>
+
+    <p>
+        这是邮件链接:
+        <a href="mailto:421145920@qq.com?subject=Header%20caption">发送邮件</a>
+    </p>
+    <p>
+        <b>注意：</b>应该使用 %20 来替换单词之间的空格，这样浏览器就可以正确地显示文本了。
+    </p>
+
+    <p>
+        这是另一个 mailto 链接：
+        <a href="mailto:421145920@qq.com?cc=cmczgz@hotmail.com&bcc=cmczgz@sina.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!">发送邮件！</a>
+    </p>
+    <p>
+        <b>注意：</b>应该使用 %20 来替换单词之间的空格，这样浏览器就可以正确地显示文本了。
+    </p>
+
+</body>
+
+<head>
+    <style type="text/css">
+        h1 {
+            color: red
+        }
+
+        p {
+            color: blue
+        }
+    </style>
+</head>
+
+<body>
+    <h1>header 1</h1>
+    <p>test header 1.</p>
+    <h1>header 2</h1>
+    <p>test header 2.</p>
+</body>
+
+<!-- <head>
+    <link rel="stylesheet" type="text/css" href="/html/csstest1.css">
+</head>
+<body>
+    <h1>我通过外部样式表进行格式化。</h1>
+    <p>我也一样！</p>
+</body> -->
+
+<p style="color: red; margin-left: 20px">
+    This is a paragraph
+</p>
+
+</html>
